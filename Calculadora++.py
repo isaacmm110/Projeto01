@@ -10,6 +10,9 @@ elif op == "-":
 elif op == "x":
     print(num1 * num2)
 elif op == "/":
+    while (num2 == 0):
+        num2 = float(input("Enter a valid second number: "))
     print(num1 / num2)
+
 else:
     print("Elefante")
